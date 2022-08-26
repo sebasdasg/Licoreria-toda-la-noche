@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/jPages.css">
+
+        <title>Licoreria Toda la Noche</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class='bx bxs-drink nav__logo-icon'></i> Toda la Noche
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Destacados</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Productos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Combos</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!--theme change button-->
+                    <i class='bx bx-moon change-theme' id="theme-button" ></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                       <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                        <i class='bx bxl-whatsapp' ></i>
+                       </a>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="assets/img/jw_b.png" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            JOHNNIE WALKER<br> BLACK LABEL 750ml
+                        </h1>
+                        <p class="home__description">
+                            Johnnie Walker Black Label tiene un inconfundible cáracter profundo, suave y complejo.
+                            Un shisky excepcional para compartir en cualquier ocasión, sea pasando un rato agradable
+                            en casa con sus amigos o en una salida inolvidable.
+                        </p>
+                        <span class="home__price">S/. 115.00</span>
+
+                        <div class="home__btns">
+                            <a href="#" class="button button--gray button--small">
+                                Descubrir
+                            </a>
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button home__button">Comprarlo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== DESTACADOS ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Destacados
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">Oferta</span>
+
+                        <img src="assets/img/chr_12.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Whisky Chivas Regal 12</h3>
+                            <span class="featured__price">S/. 87.00</span>
+                        </div>
+
+                        <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button featured__button">Comprarlo</a>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Oferta</span>
+
+                        <img src="assets/img/sv-r.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Vodka Smirnoff Raspberry</h3>
+                            <span class="featured__price">S/. 38.00</span>
+                        </div>
+
+                        <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button featured__button">Comprarlo</a>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Oferta</span>
+
+                        <img src="assets/img/botija_acholado.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Pisco Tabernero La Botija Acholado</h3>
+                            <span class="featured__price">S/. 30.00</span>
+                        </div>
+
+                        <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button featured__button">Comprarlo</a>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== Historia ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            Nosotros
+                        </h2>
+
+                        <h1 class="story__title">
+                            Licoreria <br> Toda La Noche
+                        </h1>
+                        
+                        <p class="story__description">
+                            The lested and modern watches of this year, is available in various presentations in this store, discover them now.
+                        </p>
+
+                        <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button button-small">Comprarlo</a>
+                    </div>
+                    <div class="story__images">
+                        <img src="assets/img/todalanoche02.jpeg" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Productos
+                </h2>
+
+                <form class="products__search">
+                    <i class='bx bx-search-alt-2 products__search-img'></i>
+                    <input class='products__search-input' type="text" name="" id="search-item" placeholder="Buscar productos" onkeyup="search()">
+                </form>
+                <ul class="products__categories">
+                    <li class="products__category active" data-filter="todos">Todos</li>
+                    <li class="products__category" data-filter="whisky">Whisky</li>
+                    <li class="products__category" data-filter="pisco">Pisco</li>
+                    <li class="products__category" data-filter="ron">Ron</li>
+                    <li class="products__category" data-filter="cerveza">Cerveza</li>
+                    <li class="products__category" data-filter="vinos">Vinos</li>
+                    <li class="products__category" data-filter="vodka">Vodka</li>
+                    <li class="products__category" data-filter="combos">Combos</li>
+                </ul>
+
+                <div class="holder"></div>
+
+                <div class="products__container grid" id="products__container">
+                    <article class="products__card itemBox" data-item="ron">
+                        <img src="assets/img/flordecaña_4.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Ron Flor de Caña 4 años</h3>
+                        <span class="products__price">S/. 38.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/vat_69.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Vat 69</h3>
+                        <span class="products__price">S/. 27.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/ballantines.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Ballantines</h3>
+                        <span class="products__price">S/. 49.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="ron">
+                        <img src="assets/img/cartavio_black.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Ron Cartavio Black</h3>
+                        <span class="products__price">S/. 24.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/red_label.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Johnnie Walker Red Label</h3>
+                        <span class="products__price">S/. 54.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/black_label.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Jhonnie Walker Black Label</h3>
+                        <span class="products__price">S/. 115.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="ron">
+                        <img src="assets/img/cartavio_black_barrel.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Ron Cartavio Black Barrel</h3>
+                        <span class="products__price">S/. 28.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="ron">
+                        <img src="assets/img/cabo_blanco.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Ron Cabo Blanco 1L</h3>
+                        <span class="products__price">S/. 18.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="ron">
+                        <img src="assets/img/cartavio_chata.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Ron Cartavio "Chata"</h3>
+                        <span class="products__price">S/. 8.90</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="ron">
+                        <img src="assets/img/flordecaña_5.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Flor de Caña 5 Años</h3>
+                        <span class="products__price">S/. 44.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="ron">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/flordecaña_7.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Flor de Caña 7 Años</h3>
+                        <span class="products__price">S/. 56.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/4gallos_acholado.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Cuatro Gallos Acholado</h3>
+                        <span class="products__price">S/. 41.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/4gallos_quebranta.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Cuatro Gallos Quebranta</h3>
+                        <span class="products__price">S/. 41.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/marquesdeica.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Pisco Marques de Ica</h3>
+                        <span class="products__price">S/. 17.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/p_vargas.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Pisco Vargas</h3>
+                        <span class="products__price">S/. 24.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/queirolo_acholado.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Pisco Santiago Queirolo Acholado</h3>
+                        <span class="products__price">S/. 31.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/queirolo_quebranta.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Pisco Santiago Queirolo Quebranta</h3>
+                        <span class="products__price">S/. 31.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/botija_acholado.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Pisco La Botiija Acholado</h3>
+                        <span class="products__price">S/. 33.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/botija_quebranta.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Pisco La Botiija Quebranta</h3>
+                        <span class="products__price">S/. 33.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/botija_italia.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Pisco La Botiija Italia</h3>
+                        <span class="products__price">S/. 33.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="pisco">
+                        <img src="assets/img/tabernero_sour.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Tabernero Sour Maracuya</h3>
+                        <span class="products__price">S/. 33.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vinos">
+                        <img src="assets/img/blanco_semiseco_tacama.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vino De La Viña Blanco Semiseco Tacama</h3>
+                        <span class="products__price">S/. 25.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vinos">
+                        <img src="assets/img/rose_semiseco_tacama.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vino De La Viña Rose Semiseco Tacama</h3>
+                        <span class="products__price">S/. 25.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vinos">
+                        <img src="assets/img/tabernero_grantinto.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vino Gran Tinto Tabernero</h3>
+                        <span class="products__price">S/. 22.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vinos">
+                        <img src="assets/img/vsq_borgoña.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vino Santiago Queirolo Borgoña</h3>
+                        <span class="products__price">S/. 17.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vinos">
+                        <img src="assets/img/vsq_magdalena.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vino Santiago Queirolo Magdalena</h3>
+                        <span class="products__price">S/. 17.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vinos">
+                        <img src="assets/img/vsq_rose.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vino Santiago Queirolo Rosé</h3>
+                        <span class="products__price">S/. 17.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vodka">
+                        <img src="assets/img/ruskaya.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vodka Russkaya</h3>
+                        <span class="products__price">S/. 21.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vodka">
+                        <img src="assets/img/ruskaya_pink.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vodka Russkaya Pink</h3>
+                        <span class="products__price">S/. 24.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vodka">
+                        <img src="assets/img/skyy.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vodka Skyy</h3>
+                        <span class="products__price">S/. 00.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vodka">
+                        <img src="assets/img/smirnoff_apple.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vodka Smirnoff Apple</h3>
+                        <span class="products__price">S/. 35.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vodka">
+                        <img src="assets/img/smirnoff_apple_355.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vodka Smirnoff Apple 355ml</h3>
+                        <span class="products__price">S/. 7.50</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vodka">
+                        <img src="assets/img/smirnoff_red.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vodka Smirnoff Original</h3>
+                        <span class="products__price">S/. 25.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="vodka">
+                        <img src="assets/img/vodka_absolut.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Vodka Absolut</h3>
+                        <span class="products__price">S/. 54.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/blue_label.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Johnnie Walker Blue Label</h3>
+                        <span class="products__price">S/. 1249.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/chivas_12.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Chivas Regal 12</h3>
+                        <span class="products__price">S/. 87.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/chivas_18.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Chivas Regal 18</h3>
+                        <span class="products__price">S/. 249.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/double_black.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Johnnie Walker Double Black Label</h3>
+                        <span class="products__price">S/. 140.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/gold_label.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Johnnie Walker Gold Label</h3>
+                        <span class="products__price">S/. 229.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/green_label.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Johnnie Walker Green Label</h3>
+                        <span class="products__price">S/. 215.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/jack_daniels.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Jack Daniels</h3>
+                        <span class="products__price">S/. 99.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/o_y_label.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Johnnie Walker 18 year Label</h3>
+                        <span class="products__price">S/. 399.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/old_time_black.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Old Times Black</h3>
+                        <span class="products__price">S/. 22.90</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/old_time_red.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Old Times</h3>
+                        <span class="products__price">S/. 19.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/passport_scotch.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Passport Scoth</h3>
+                        <span class="products__price">S/. 26.90</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <img src="assets/img/something_special.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Something Special</h3>
+                        <span class="products__price">S/. 53.00</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                    <article class="products__card itemBox" data-item="whisky">
+                        <span class="featured__tag">AGOTADO</span>
+                        <img src="assets/img/swing.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whisky Johnnie Walker Swing</h3>
+                        <span class="products__price">S/. 179.90</span>
+
+                        <button class="products__button">
+                            <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </a>
+                        </button>
+                    </article>
+
+                </div>
+                
+            </section>
+
+            <!--==================== BLOG ====================-->
+            <section class="testimonial section container">
+                <h2 class="section__title">Blog para tú noche</h2>
+                <div class="testimonial__container ">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__blog grid swiper-slide">
+                                <div class="testimonial__card ">
+                                    <div class="testimonial__quote">
+                                        <i class="bx bxs-quote-alt-left"></i>
+                                    </div>
+
+                                    <h3 class="testimonial__title">Club Soda</h3>
+                                    <p class="testimonial__description">Éste es quizás uno de los cócteles con whisky 
+                                    más consumidos por los amantes de esta bebida y es que a pesar de tener una 
+                                        preparación es muy sencilla, el sabor de esta bebida preparada es inigualable.</p>
+                                    <h4 class="testimonial__ingredient">Ingredientes</h4>
+                                    <ul class="testimonial__ingredient-list">
+                                    <li class="testimonial__ingredient-lists">Suficiente Hielo</li>
+                                    <li class="testimonial__ingredient-lists">60 ml. de whisky</li>
+                                    <li class="testimonial__ingredient-lists">30 ml. de agua mineral</li>
+                                    <li class="testimonial__ingredient-lists">15 ml. de jugo de limón</li>
+                                    </ul>
+                                    <p class="testimonial__preparation">En un vaso largo, sirve suficientes hielos y
+                                     mezcla el whisky con agua mineral y jugo de limón. Puedes decorar con una rodaja
+                                     del cítrico y disfrutarlo lentamente.</p>
+                                    
+                                </div>
+                                <div class="testimonial__images">
+                                    <div class="testimonial__square"></div>
+                                    <img src="assets/img/club_soda.jpg" alt="" class="testimonial__img">
+                                </div>
+                            </div>
+                             
+                            <div class="testimonial__blog grid swiper-slide">
+                                <div class="testimonial__card ">
+                                <div class="testimonial__quote">
+                                    <i class="bx bxs-quote-alt-left"></i>
+                                </div>
+
+                                <h3 class="testimonial__title">Manhattan</h3>
+                                <p class="testimonial__description">Uno de los cócteles con whisky más recomendados
+                                    entre los expertos, es el del whisky y vermut rojo, ingredientes principales de
+                                    este delicioso cóctel creado por el Dr. Lain Marshall en 1870.</p>
+                                <h4 class="testimonial__ingredient">Ingredientes</h4>
+                                <ul class="testimonial__ingredient-list">
+                                    <li class="testimonial__ingredient-lists">60 ml. de whisky</li>
+                                    <li class="testimonial__ingredient-lists">30 ml. de vermut rojo</li>
+                                    <li class="testimonial__ingredient-lists">2 gotas de amargo de angostura</li>
+                                    <li class="testimonial__ingredient-lists">Cerveza para decorar</li>
+                                </ul>
+                                <p class="testimonial__preparation">En un vaso largo, sirve suficientes hielos y
+                                     mezcla el whisky con agua mineral y jugo de limón. Puedes decorar con una rodaja
+                                     del cítrico y disfrutarlo lentamente.</p>
+                                </div>
+                                <div class="testimonial__images">
+                                    <div class="testimonial__square"></div>
+                                    <img src="assets/img/manhattan.jpg" alt="" class="testimonial__img">
+                                </div>
+                            </div>
+
+                            <div class="testimonial__blog grid swiper-slide">
+                                <div class="testimonial__card ">
+                                <div class="testimonial__quote">
+                                    <i class="bx bxs-quote-alt-left"></i>
+                                </div>
+
+                                <h3 class="testimonial__title">Club Soda 2</h3>
+                                <p class="testimonial__description">Éste es quizás uno de los cócteles con whisky 
+                                    más consumidos por los amantes de esta bebida y es que a pesar de tener una 
+                                    preparación es muy sencilla, el sabor de esta bebida preparada es inigualable.</p>
+                                <h4 class="testimonial__ingredient">Ingredientes</h4>
+                                <ul class="testimonial__ingredient-list">
+                                    <li class="testimonial__ingredient-lists">Suficiente Hielo</li>
+                                    <li class="testimonial__ingredient-lists">60 ml. de whisky</li>
+                                    <li class="testimonial__ingredient-lists">30 ml. de agua mineral</li>
+                                    <li class="testimonial__ingredient-lists">15 ml. de jugo de limón</li>
+                                </ul>
+                                <p class="testimonial__preparation">En un vaso largo, sirve suficientes hielos y
+                                     mezcla el whisky con agua mineral y jugo de limón. Puedes decorar con una rodaja
+                                     del cítrico y disfrutarlo lentamente.</p>
+                                </div>
+                                <div class="testimonial__images">
+                                    <div class="testimonial__square"></div>
+                                    <img src="assets/img/club_soda.jpg" alt="" class="testimonial__img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class='bx bx-chevron-right' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-chevron-left' ></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== COMBOS ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">Nuestros Combos</h2>
+
+                <div class="new__container swipper new-swiper">
+                    <!--<div class="swipper new-swiper">-->
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">Combo</span>
+
+                                <img src="assets/img/combo_redlabel.png" alt="" class="new__img">
+
+                                <div class="new__data">
+                                    <h3 class="new__title">Combo Red Label</h3>
+                                    <span class="new__price">S/. 62.00</span>
+                                </div>
+
+                                <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button new__button">Comprarlo</a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">Combo</span>
+
+                                <img src="assets/img/combo_barcelo_añejo.png" alt="" class="new__img">
+
+                                <div class="new__data">
+                                    <h3 class="new__title">Combo Ron Barceló</h3>
+                                    <span class="new__price">S/. 58.00</span>
+                                </div>
+
+                                <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button new__button">Comprarlo</a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">Combo</span>
+
+                                <img src="assets/img/combo_4gallos.png" alt="" class="new__img">
+
+                                <div class="new__data">
+                                    <h3 class="new__title">Combo Pisco 4 Gallos</h3>
+                                    <span class="new__price">S/. 52.00</span>
+                                </div>
+
+                                <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button new__button">Comprarlo</a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">Combo</span>
+
+                                <img src="assets/img/combo_appleton.png" alt="" class="new__img">
+
+                                <div class="new__data">
+                                    <h3 class="new__title">Combo Ron Appelton</h3>
+                                    <span class="new__price">S/. 43.00</span>
+                                </div>
+
+                                <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button new__button">Comprarlo</a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">Combo</span>
+
+                                <img src="assets/img/combo_ballantines.png" alt="" class="new__img">
+
+                                <div class="new__data">
+                                    <h3 class="new__title">Combo Whisky Ballantines</h3>
+                                    <span class="new__price">S/. 58.00</span>
+                                </div>
+
+                                <a href="https://wa.me/51963296727?text=Me%20interesa%20el%20producto" class="button new__button">Comprarlo</a>
+                            </article>
+                        </div>
+                    <!--</div>-->
+                </div>
+               
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <h2 class="section__title">Ubicanos</h2>
+                <div class="newsletter__bg grid">
+                    <div class="icons">
+                        <i class='bx bxs-phone-call' ></i>
+                        <h3 class="icons__description">+51 963 269 727</h3>
+                    </div>
+                    <div class="icons">
+                        <i class='bx bxs-location-plus' ></i>
+                        <h3 class="icons__description">Calle José Diez Canseco 3402 - SMP</h3>
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">   
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.1735080155344!2d-77.08240053337737!3d-12.026300083492895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cfa6d04777e9%3A0x15cc82d3deec640f!2sToda%20la%20Noche!5e0!3m2!1ses-419!2spe!4v1657700482938!5m2!1ses-419!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Nuestra Información</h3>
+
+                    <ul class="footer__list">
+                        <li>SMP - Lima</li>
+                        <li>Jirón Diez Canseco 3402</li>
+                        <li>+51 963 269 727</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Productos</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Cervezas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Vinos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Licores</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Combos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Redes</h3>
+
+                    <ul class="footer__social">        
+                        <a href="https://www.facebook.com/" target='_blank' class="footer__social-link">
+                            <i class='bx bxl-facebook-circle' ></i>
+                        </a>        
+                        <a href="https://www.instagram.com/" target='_blank' class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169;Sebastian. Todos los derechos reservados</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevrons-up scrollup__icon'></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== PAGINACION JS ===============-->
+        <script src="assets/slick/slick.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/jPages.min.js"></script>
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
